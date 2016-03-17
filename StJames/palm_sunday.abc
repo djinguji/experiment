@@ -2,20 +2,54 @@ X:17
 T:Palm Sunday Psalm
 M:3/4
 L:1/4
-K:
-V:1 clef=treble
-V:2 clef=treble
-[V:1](D > EF/G/ A- | A) F G2 | (F > GA/G/B- | B) A (G F/E/ | F/D/G/A/ B/c/B-| B/A/ A ^G F) | F2 z2 |
-w: Be - | - ne-dic- | tus - | - qui ve- | - | - - --  | nit |
-[V:2] z4 | z2 (G > A | B/c/d2) B | d2 (B>c | d/B/d2) d | (d2BA)|A2 z d |
-w: | Be- | -- - ne- | dic- tus- | -- - qui | ve--   |nit  in |
+K:Bm
+%%score (C A) | (T B)
+V:C clef=treble
+V:A clef=treble
+V:T clef=bass
+V:B clef=bass
+[V:C] F | (D/C/ B,) (F/B/) | (A F2) | D3/2 D/ E/ E/ | F/ F/ F ||
+w: My | God, - - my | God, | Why have you for- | sak-en me? ||
+[V:A] C | F, F, D | D D2 | B,3 | C C ||
+[V:T] ^A, | D, D, F, | F, A,2 | (D,2 C,) | B, ^A, ||
+[V:B] F,, | B,, B,, B,, | D, D,2 | G,,3 | F,,2 ||
+
 %
-[V:1] z A F E | (A G/F/E/F/G) | (D/E/F/G/ A/G/E/F/ | G/F/ F/E/4D/4 E) E | D A F E | (A G/F/ E2) |
-w:  in no-mi- | ne - | Do- | ------ mi- | ni, in no-mi- | ne,- |
-[V:2] B A d (c/B/ | A/B/ c>B G/A/ | B/c/d) (A/B/c/d/ | e/d/ d2) ^c | d2 z A | F E (A G/F/ |
-w: no-mi-ne -| - |  ---  Do- | --- mi-|ni,  in | no-mi-ne - |  
+X:18
+M:none
+L:1/4
+K:Bm
+%%score (T) | (B)
+V:T clef=treble
+V:B clef=bass
+[V:T] [F8D8]  d0 d0 c0 B0 [B4D4] | [F8D8] [E4B,4] | F0 [D8F8] [d0D4]c0d0c0B4 | [C8^A8] =G0 G0 [C4F4] ||
+[V:B] [B,,8F,8] 
+%[V:B] [B,,4F,4] [B,,4F,4] | [B,,4F,4] [G,,4E,,4] | [B,,4F,4] [G,,4G,4] | [F,,4F,4] [F,,4^A,4] ||
+
 %
-[V:1] z G E D | (G F/E/ D>E | F2) z A | F E (A G/F/ | E) (B>A G/F/ |E/D/D2) ^C | D4 |]
-w: in no-mi- |ne |- in | no-mi-ne | - Do-  | --- mi- |ni. |]
-[V:2] E2) z G | E D (G F/E/ | D) d B A | (d c/B/ A) (c- | c/B/ G/A/B>A | G/F/F E) E | D4 |]
-w: - in | no-mi-ne  | - in no-mi-|ne --- Do- |  | ---- mi-|ni.|]
+X:19
+M:none
+L:1/4
+K:Bm
+%%score (C A) | (T B)
+V:C clef=treble
+V:A clef=treble
+V:T clef=bass
+V:B clef=bass
+[V:C] F0 F0 d0 d0 c0 B0 B4 | F0 F0 F0 F0 F0 F0 F0 E4 |
+w: All who see me de-ride me | They curl their lips and toss their heads | 
+[V:C]  F0 B0 B0 B0 B0 B4 c0 d0 (d0 c0 d0 c0) B4 | ^A0 A0 A0 A0 A4 A0 A0 =G0 G0 F4 ||
+w: He trust-ed in the Lord, let him save - - - him; | let him re-lease him, if this is his friend. ||
+
+%
+X:20
+M:none
+L:1/4
+K:Bm
+%%score (T) | (B)
+V:T clef=treble
+V:B clef=bass
+[V:T] [F4D4]  d0 d0 c0 B0 [B4D4] | [F4D4] [E4B,4] | F0 [D4F4] [d0D4]c0d0c0B4 | [C4^A4] =G0 G0 [C4F4] ||
+%[V:B] [B,,4F,4] 
+[V:B] [B,,4F,4] [B,,4F,4] | [B,,4F,4] [G,,4E,4] | [B,,4F,4] [G,,4G,4] | [F,,4F,4] [F,,4^A,4] ||
+
