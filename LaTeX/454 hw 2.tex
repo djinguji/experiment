@@ -1,0 +1,131 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{url}
+\usepackage{lingmacros}
+\usepackage{tipa}
+\usepackage{stmaryrd}
+
+\begin{document}
+
+\title{Ling 454 \\ Homework 2}
+\author{Dan Jinguji \\ 7339426}
+\date{Due: Tuesday 1 November 2011}
+
+\maketitle
+
+\renewcommand\thesection {\arabic{section}:}
+\renewcommand\thesubsection {(\arabic{subsection})}
+\newcommand{\and}{\,\&\;}
+\newcommand{\llb}{\ensuremath{\llbracket}}
+\newcommand{\rrb}{\ensuremath{\rrbracket}}
+\newcommand{\blt}{\ensuremath{\bullet\;}}
+\newcommand{\sem}[1]{\ensuremath{\llbracket\mathrm{#1}\rrbracket}}
+%\newcommand{\und}{\ensuremath{\!\_\,}}
+\newcommand{\und}{\ensuremath{\_\,}}
+\newcommand{\then}{\ensuremath{\rightarrow}}
+\newcommand{\dom}[1]{\ensuremath{\mathbf{D}_{\mathrm{#1}}}}
+\newcommand{\lamb}[3]{{[\ensuremath{\lambda\mathrm{#1}\;\in\;{#2}\;.\;}{#3}]}}
+\newcommand{\ip}[1]{\textipa{#1}}
+\newcommand{\rd}{\textrtaild}
+
+\section{Exercise 3.5: Loanwords in Japanese}
+
+The following is a list of some of the loanwords into Japanese, primarily from English (though some other European languages may be involved in a few of these). How has Japanese modified the foreign sounds to fit its phonology? What arguments can you make to show that the direction of borrowing is indeed from English into Japanese? State your evidence. \\
+{\sc note}: Japanese permits no syllable-final consonants other than {\it -n}; it does not tolerate consonant clusters other than {\it -nC}, though geminates [double consonants] are allowed, and the only word-final consonant is {\it -n}. In Japanese, \ip{/t/} is \ip{[ts]} before {\it u}, \ip{[tS]} before {\it i}. Japanese has no {\it l} or {\it v}, and no {\it h} before {\it u} (only {\it f}), and no \ip{@}. \\
+
+\begin{figure}
+\begin{center}
+\begin{tabular}{rllll}
+& {\it Japanese (loan)word} & {\it English (original) word} \\
+1. & sarar\={\i} & `salary' \\
+2. & uinku & `wink' \\
+3. & uirusu & `virus' \\
+4. & bur\={a}ji & `brassiere' \\
+5. & terebi & `television' \\
+6. & ob\={a} & `overcoat' \\
+7. & aisukur\={\i}mu & `ice cream' \\
+8. & asuterisuku & `asterisk' \\
+9. & buresuretto & `bracelet' \\
+10. & k\={o}h\={\i} & `coffee' \\
+11. & f\={u}do & `hood' \\
+12. & ofisu & `office' \\
+13. & wakuchin & `vaccine' \\
+14. & rajio & `radio' \\
+15. & kyand\={\i} & `candy' \\
+16. & g\={a}t\={a} & `garter' \\
+17. & jigu-zagu & `zig-zag' \\
+18. & doa & `door' \\
+19. & amachua & `amateur' \\
+20. & ch\={\i}muw\={a}ku & `teamwork' \\
+21. & t\={\i}n-eij\={a} & `teenager' \\
+22. & baketsu & `bucket' \\
+23. & jakketto & `jacket' \\
+24. & bifuteki & `beef steak' \\
+25. & sut\={e}ki & `steak' \\
+26. & morutaru & `mortar' \\
+27. & sutoraiku & `strike' (in baseball) \\
+28. & sutoraiki & `strike' (by employees) \\
+\end{tabular}
+\end{center}
+\caption{Selected entries from the data set}
+\label{data}
+\end{figure}
+
+Let us first address the issue of the direction of borrowing. It seems clear that it is from English into Japanese. There are several strong indicators, among them: multiple-to-one sound correspondences (see Table~\ref{data}, examples 1 ({\it l, r} $>$ {\it r}) and 2, 3 ({\it w, v} $>$ {\it u})), clipping of the borrowing (examples 4, 5, 6), alternation of consonant clusters and CV structure (apparent epenthetic vowels, examples 7, 8, 9), sound substitution based on phonotactics (examples 10 ({\it f} $>$ {\it h} / \und i), 11 ({\it h} $>$ {\it f} / \und u), apparent semantic opacity (example 5, contrast with British clipping `telly' which is at the morpheme break). Interestingly, the data set also shows diachronic adaptation in Japanese phonotactics to continued borrowings from English (examples 10 (early) and 12 (later), 14 (early) and 15 (later)).
+
+In the aforementioned indications of the direction of borrowing, one can also find many examples of the typical adaptations of English pronunciation into Japanese. One of the most obvious is the epenthesis of vowels to support CV(n) syllable structure (examples 7, 8, 9). Another is the sound substitution where the phonemic spaces do not provide one-to-one correspondence (examples 1 ({\it l, r} $>$ {\it r}); 3, 13 ({\it v} $>$ {\it u, w}, the alternation here because of the lack of {\it wi} as a syllable in modern Japanese.); and 17 ({\it z} $>$ {\it j, z}, the alternation due to Japanese phonotactics)), the rhotic {\it r} in coda is typically deleted with compensatory lengthening of the vowel (examples 6, 16) or expressed as a separate syllable {\it a} (examples 18, 19).
+
+It is also interesting to note where we see variation in the adaptation of English words into Japanese phonology. Compare examples 20 and 21 where the English stressed, word-initial \ip{/"ti/} $>$ {\it ch\={\i}} and {\it t\={\i}}. I think this may be another indication of Japanese phonotactics adapting to English borrowings. A similar looking pair is examples 22 and 23 where the English \ip{/k@t/} $>$ {\it ketsu} and {\it kketto}. However, I think this may be due to the era when the borrowing occurred. I have a sense that {\it baketsu} is an older borrowing, where a careful representation of the English sounds was not a high priority; where I believe {\it jakketto} is later. The earlier borrowing captured the unvoiced alveolar stop as an unvoiced dental affricate (the reflex of an unvoiced dental stop and the typical epenthetic {\it u}. However, this would not be perceived by English speakers as a faithful rendition of the word. To retain the stop (rather than have lenition to the affricate), the epenthetic vowel {\it o} was used instead in the later borrowing. Also, the syllabic structure of the English is typically thought of as two closed syllables, \ip{/"dZ\ae{}k-@t/}, so geminate consonants were used to approximate the closed syllables. So, greater familiarity with English sounds and possibly a greater desire to faithfully reproduce the English pronunciation led to greater ``fidelity'' in the transfer. I think a similar historical explanation fits with examples 24 and 25. The English consonant cluster {\it fst} lost the {\it s}. This appears to be the only time an obstruent is lost in the data set. This is consistent with 24 being an earlier borrowing; the adjacent fricatives could easily be reduced to the single fricative, the first one {\it f}. The lengthening of the vowel in 25 could be the reflex of stress accent on the vowel, with the epenthetic vowels remaining short. Another interesting case is example 26. Here we see the rhotic {\it r} in coda expressed as the flapped {\it r}. I don't have a ready explanation for this variation. It might be that the source for this word was a group of speakers of very rhotic variety of English. Perhaps it comes from the US servicemen during the post-World War II and Korean War period. Most of them were likely heavily rhotic speakers. Also, this seems to be `mortar', the building material; to the best of my knowledge, the native words for `mortar', the grinding implement, are still in common usage. Another possibility is disambiguation. The ``expected'' rendering of `mortar' would be {\it m\={o}t\={a}}. However, this is the borrowed word `motor'. So, to distinguish `mortar' from `motor', `mortar' is rendered as {\it morutaru}. We have another example of divergence in borrowed words to resolve ambiguity, examples 27 and 28, in this case, homophonic in English.
+
+\section{Exercise 4.2: Identifying analogical changes}
+
+Determine what kind of analogical change is involved in the following examples. Name the kind of change, and attempt to explain how it came about, if you can.
+
+\setcounter{subsection}{1}
+\subsection{}
+Where Standard English has {\it drag}/{\it dragged}, some varieties of English have {\it drag}/{\it drug}. It appears in this case that the Standard English pattern is older. \\
+
+This is a very interesting case. It looks like an example of analogical extension, but one is hard pressed to find the analogy in English. It does follow an umlaut-like pattern, and one can find examples in German which follow this pattern {\it fahren}/{\it fuhr}, {\it graben}/{\it grub}, {\it laden}/{\it lud}, {\it wachsen}/{\it wuchs}, even {\it tragen}/{\it trug}. 
+
+Moreover, looking in OED, one finds that {\it drug} is an obsolete word, still used regionally, meaning {\it to drag}. Its citations date back to the mid-thirteenth century. OED lists {\it drag} of relatively more recent ``vintage'', dating back to the mid-fifteenth century. OED suggests that the modern word {\it drag} may derive from {\it draw}. OED cites usage of this word in the mid-tenth century. It also lists forms OE {\it drag-} and ME {\it dragh-}. So perhaps the modern form {\it drag} is actually a blend of {\it draw} and {\it drug}. And the regional variant past tense form {\it drug} (North American English, in one source; southern and midwest, in another) may be the retention of an English variant brought with the colonists. Yes, it seems a bit far-fetched, but it's very difficult to suggest a mechanism of simple analogy for this past tense form.
+
+\setcounter{subsection}{3}
+\subsection{}
+In many Spanish dialects, an intervocalic {\it d} is regularly lost, as in {\it mercado} $>$ {\it mercao} `market'; in some instances, however, there are changes of the following sort: dialect {\it bacalado} $<$ Standard {\it bacalao} `codfish'; dialect {\it Bilbado} $<$ Standard {\it Bilbao} (a place name). \\
+
+This is an example of hypercorrection. The dialect speakers, recognizing that their native dialect deletes intervocalic {\it d} (I believe there may also be conditioning of the deletion based on stress patterns), will insert a {\it d} in the patterned locations to ``restore'' the Standard pronunciation. However, there is no clue in the dialect if the adjacent vowels are the result of deletion or are ``really'' adjacent (adjacent in the Standard form of the language).
+
+\setcounter{subsection}{5}
+\subsection{}
+English {\it Jerusalem artichoke} (a kind of sunflower, with some similarities to an artichoke) is in origin from Italian {\it girasole articiocco}, where Italian {\it girasole} \ip{/dZira"sole/} contains {\it gira-} `turn around, revolve, rotate' + {\it sole} `sun', and {\it articiocco} `artichoke', with nothing associated with {\it Jerusalem}, originally. \\
+
+This is an example of reanalysis. The foreign term {\it girasole} `sunflower' is reanalyzed to {\it Jerusalem} based on the phonological shape of the word. 
+
+\setcounter{subsection}{7}
+\subsection{}
+English {\it heliport} $<$ {\it helicopter} $+$ {\it airport}; {\it snazzy} $<$ {\it snappy} $+$ {\it jazzy}; {\it jumble} $<$ {\it jump} $+$ {\it tumble}. \\
+
+These are all examples of blends.
+
+\setcounter{subsection}{9}
+\subsection{}
+Middle English had {\it help-} `present tense', {\it holp} `past tense'; Modern English has {\it help}, {\it helped} for these. \\
+
+This is an example of analogical leveling, the loss of the former past stem of the verb.
+
+\setcounter{subsection}{11}
+\subsection{}
+Many varieties of English have a new verb {\it to liaise} based on {\it liaison}. \\
+
+This is an example of back-formation.
+
+\setcounter{subsection}{13}
+\subsection{}
+Finnish {\it rohtia} `to dare' resulted from both {\it rohjeta} `to be bold enough, to dare' and {\it tohtia} `to dare'. \\
+
+This is an example of a blend.
+
+\end{document}

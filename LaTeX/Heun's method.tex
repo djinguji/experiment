@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphics}
+%\usepackage{url}
+%\usepackage{lingmacros}
+%\usepackage{rtrees}
+%\usepackage{stmaryrd}
+
+\begin{document}
+
+\renewcommand\thesection {}
+\renewcommand\thesubsection {\Alph{subsection}.}
+
+\section{Some Thoughts on Heun's Method}
+
+In the lecture on Monday, Lisa said that she didn't have the rationale for Heun's method immediately at her finger tips. In reviewing the notes, I think I have a simple suggestion.
+
+First, some general terminology. Given an IVP,
+\begin{equation*}
+\frac{dy}{dt} = f(y(t), t)) \qquad
+y(0) = y_0,\;
+t \in [t_0, t_N]
+\end{equation*}
+the general form for the solution is
+\begin{equation}
+y_{n+1} = y_n + \Delta t\varphi
+\end{equation}
+where $\varphi$ is some appropriate function of $f$, $y$, and $t$.
+
+In Euler's method, $\varphi$ is the function $f$ from the IVP statement.
+That is,
+\begin{equation}
+y_{n+1} = y_n + \Delta t\cdot f(y(t_n), t_n)
+\end{equation}
+This can be rewritten,
+\begin{equation}
+\label{euler}
+y(t + \Delta t) = y(t) + \Delta t\cdot f(y(t), t)
+\end{equation}
+So, (\ref{euler}) is the ``Euler's method approximation for $y(t + \Delta t)$''.
+
+So, in the Modified Euler-Cauchy method,
+\begin{equation}
+y(t + \Delta t) = y(t) + \Delta t\cdot f\left(y(t) + \frac{\Delta t}{2}f(y(t),t), t + \frac{\Delta t}{2}\right)
+\end{equation}
+$\varphi$ is the function $f$ evaluated at the midpoint of the interval, $t + \frac{\Delta t}{2}$. It uses the Euler approximation for $y(t + \frac{\Delta t}{2})$, that is $y(t) + \frac{\Delta t}{2}f(y(t),t)$.
+\begin{equation}
+\varphi = f\left(y(t) + \frac{\Delta t}{2}f(y(t),t), t + \frac{\Delta t}{2}\right)
+\end{equation}
+So, the name Midpoint method is transparent. 
+
+Similarly, in Heun's method,
+\begin{equation}
+y(t + \Delta t) = y(t) + \frac{\Delta t}{2}\cdot \left(f(y(t),t) + f(y(t) + \Delta t\cdot f(y(t),t), t + \Delta t)\right)
+\end{equation}
+$\varphi$ is the mean of the function $f$ evaluate at $t$ and $t + \Delta t$. The value of $f$ at $t$ is straight forward, $f(y(t),t)$. It uses Euler's approximation for $y(t + \Delta t)$, that is $\mathsf{y(t) + \Delta t\cdot f(y(t),t)}$. So the full term for $f$ at $t + \Delta t$ is $f(\mathsf{y(t) + \Delta t\cdot f(y(t),t)}, t + \Delta t)$.
+\begin{equation}
+\varphi = \frac{f(y(t),t) + f(\mathsf{y(t) + \Delta t\cdot f(y(t),t)}, t + \Delta t)}{2}
+\end{equation}
+So, Heun's method uses an ``average'' for $\varphi$.
+
+\end{document} 

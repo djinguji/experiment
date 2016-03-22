@@ -1,0 +1,119 @@
+\documentclass{article}
+
+\usepackage{lingmacros}
+\usepackage{rtrees}
+\usepackage{fullpage}
+\usepackage[T1]{fontenc}
+
+\parskip 8pt
+
+\begin{document}
+
+\begin{tree}
+\br{IP} {
+ \lf{John}
+ \br{I'} {
+  \br{I} { \lf{???} }
+  \br{VP} {
+   \br{VP} { \tlf{talk to Mary today} }
+   \lf{and}
+   \br{VP} { \tlf{ask her for a date tomorrow} }
+  }
+ }
+}
+\end{tree}
+
+.
+
+\begin{tree}
+\br{IP} {
+ \br{IP} {
+  \lf{John}
+  \br{I'} {
+   \br{I} { \lf{-ed} }
+   \br{VP} { \tlf{talk to Mary today} }
+  }
+ }
+ \lf{and}
+ \br{IP} {
+  \lf{\it{e}}
+  \br{I'} {
+   \br{I} { \lf{will} }
+   \br{VP} { \tlf{ask her for a date tomorrow} }
+  }
+ }
+}
+\end{tree}
+
+.
+
+\begin{tree}
+\br{IP} {
+ \lf{John}
+ \br{I'} {
+  \br{I} { \lf{-ed} }
+  \br{VP} {
+   \br{VP} { \tlf{talk to Mary} }
+   \lf{and}
+   \br{VP} { \tlf{ask her for a date} }
+  }
+ }
+}
+\end{tree}
+
+.
+
+\begin{tree}
+\br{IP} {
+ \br{IP} {
+  \lf{John$_i$}
+  \br{I'} {
+   \br{I} { \lf{-ed} }
+   \br{VP} { \tlf{talk to Mary today} }
+  }
+ }
+ \lf{and}
+ \br{IP} {
+  \lf{\it{e$_i$}}
+  \br{I'} {
+   \br{I} { \lf{will} }
+   \br{VP} { \tlf{ask her for a date tomorrow} }
+  }
+ }
+}
+\end{tree}
+
+\begin{tree}
+\br{CP} {
+ \lf{Spec}
+ \br{C'} {
+  \br{C} {
+   \lf{Will}
+  }
+  \br{IP} {
+   \br{NP} {
+    \tlf{John}
+   }
+   \br{I'} {
+    \br{I} { \lf{--} }
+    \br{VP} {
+     \br{V'} {
+      \br{V'} {
+       \br{V} { \lf{buy} }
+       \br{NP} { \tlf{a car} }
+      }
+      \br{PP} {
+       \br{P'} {
+        \br{P} { \lf{after} }
+        \br{NP} { \tlf{the holidays?} }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+\end{tree}
+
+\end{document}

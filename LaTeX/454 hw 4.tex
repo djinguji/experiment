@@ -1,0 +1,201 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{url}
+\usepackage{lingmacros}
+\usepackage{tipa}
+\usepackage{stmaryrd}
+\usepackage{devanagari}
+
+\begin{document}
+
+\title{Ling 454 \\ Homework 4}
+\author{Dan Jinguji \\ 7339426}
+\date{Due: Tuesday 29 November 2011}
+
+\maketitle
+
+\renewcommand\thesection {\arabic{section}:}
+\renewcommand\thesubsection {(\arabic{subsection})}
+\renewcommand\thesubsubsection{\alph{subsubsection}.}
+\newcommand{\and}{\,\&\;}
+\newcommand{\llb}{\ensuremath{\llbracket}}
+\newcommand{\rrb}{\ensuremath{\rrbracket}}
+\newcommand{\blt}{\ensuremath{\bullet\;}}
+\newcommand{\sem}[1]{\ensuremath{\llbracket\mathrm{#1}\rrbracket}}
+%\newcommand{\und}{\ensuremath{\!\_\,}}
+\newcommand{\und}{\ensuremath{\_\,}}
+\newcommand{\then}{\ensuremath{\rightarrow}}
+\newcommand{\dom}[1]{\ensuremath{\mathbf{D}_{\mathrm{#1}}}}
+\newcommand{\lamb}[3]{{[\ensuremath{\lambda\mathrm{#1}\;\in\;{#2}\;.\;}{#3}]}}
+\newcommand{\ip}[1]{\textipa{#1}}
+%\newcommand{\rd}{\textrtaild}
+%\newcommand{\rr}{\textrtailr}
+%\newcommand{\rs}{\textrtails}
+%\newcommand{\rt}{\textrtailt}
+
+\section{Exercise 8.1: German internal reconstruction}
+
+Compare the following German words; find the variants of forms of the roots (do not be concerned with the forms of the suffixes), and apply internal reconstruction to these. Reconstruct a single original form for the morphemes which have alternate forms, and postulate the changes which you think took place to produce the modern variants. Present your reasoning; why did you choose this solution? (Hint: the criterion of predictability is important in this case.) (German traditional orthography is given in parentheses after the forms, which are presented in phonemic transcription. The `e' of the final syllable in these forms is phonetically closer to \ip{[@]} in most dialects, though this is not a relevant fact for solving this problem.) \\
+
+Based on the data provided, it looks like the original forms for the morphemes are:
+\begin{center}
+\begin{tabular}{rll}
+1. & \ip{*ty:p} & `type' \\
+2. & \ip{*to:t} & `dead' \\
+3. & \ip{*lak} & `varnish' \\
+4. & \ip{*tawb} & `deaf' \\
+5. & \ip{*to:d} & `death' \\
+6. & \ip{*ta:g} & `day'
+\end{tabular}
+\end{center}
+The proposed sound change is devoicing of word-final obstruents.
+
+This proposal is based on two considerations. First, the proposed sound change is quite common. On the other hand, the alternation seen in cases 4, 5, and 6 could be explained as consonantal voicing intervocalically, another very common form of sound change. However, when we consider the forms which are invariant in this data, cases 1, 2, and 3, this alternate proposed sound change become untenable; there is no obvious way to predict where the voicing would take place or not. Particularly, there is no phonological reason for the identical surface forms in 2 and 5, \ip{/to:t/} to diverge into \ip{/to:te/} and \ip{/to:de/}
+
+\section{Exercise 8.3: Sanskrit internal reconstruction}
+
+Compare the following forms from Sanskrit. Identify the variants of the various roots and attempt to reconstruct a Pre-Sanskrit form for each root. Note that the reconstructions for the forms in 10-16 are not straightforward and may require some creative thinking on your part. What change do you think took place to produce these forms? What did you choose this particular analysis and not some other? \\
+
+Here are the proposed root forms:
+\begin{center}
+\begin{tabular}{rll}
+1. & \ip{*Sarad} & `autumn' \\
+2. & \ip{*sampad} & `wealth' \\
+3. & \ip{*vipad} & `calamity' \\
+4. & \ip{*marut} & `wind' \\
+5. & \ip{*sarit} & `river' \\
+6. & \ip{*dZagat} & `world' \\
+7. & \ip{*suh\:rd} & `friend' \\
+8. & \ip{*suk\:rt} & `good deed' \\
+9. & \ip{*sat} & `being' \\
+10. & \ip{*b\super{\texthth}i\:sag} & `physician' \\
+11. & \ip{*\:rtvig} & `priest' \\
+12. & \ip{*yug} & `yoke' \\
+13. & \ip{*srag} & `garland' \\
+14. & \ip{*ra:dZ} & `king' \\
+15. & \ip{*idZ} & `worship' \\
+16. & \ip{*s\:rdZ} & `creation'
+\end{tabular}
+\end{center}
+The proposed sound changes are:
+\begin{enumerate}
+\item \label{devoice}Devoicing of word-final obstruents.
+\item \label{k-a}Fronting (palatalization) of \ip{ga} to \ip{dZa} across morpheme boundaries.
+\item \label{j-t}`Fortition' of word-final \ip{dZ} to \ip{\:t}.
+\end{enumerate}
+
+Rationale for this analysis \\
+Data items 1-9 clearly point to the Rule~\ref{devoice}. This is also a very common sound change. The issues come with items 10-13 where a stem-final k in the nominative is associated with \ip{dZ} in the ablative and items 14-16 where a stem-final \ip{\:t} in the nominative is paired with \ip{dZ} in the ablative. This points to some underlying difference in the stem-final consonants in these two groups of data items.
+
+The choice of stem-final \ip{g} for items 10-13 and proposed Rule~\ref{k-a} is because fronting seems to be a more common sound change than the converse of the palatal \ip{dZ} backing to a velar \ip{g}. The environmental condition of morpheme boundary is proposed because data item 6, \ip{dZagat} `world', contains the sound sequence \ip{ga}. Moreover, the sound combination \ip{ga} is the name given to the Devanagari character, {\dn g}. The reconstructed stem-final consonant is \ip{g} because of the voicing in the stem-final \ip{dZ} seen in the ablative. Rule~\ref{devoice} constructs the surface stem-final \ip{k} seen in the nominative.
+
+The choice of stem-final \ip{dZ} for items 14-16 and proposed Rule~\ref{j-t} is based on two observations. Rule~\ref{devoice}, the devoicing rule, often results in word-final stops being unreleased. This would give a surface stem-final \ip{tS}. When unreleased, this is an apical stop just behind the alveolar ridge. Given the phonology of Sanskrit, this is essentially \ip{\:t}, since the \ip{t} of Sanskrit is actually a dental stop. So, the alternation proposed in Rule~\ref{j-t} can be rationalized based on articulatory considerations and Rule~\ref{devoice}.
+
+\section{Exercise 8.6: Indonesian internal reconstruction}
+
+Identify the morphemes which have more than one variant in the following data from Indonesian (an Austronesian language). Apply internal reconstruction to these forms; reconstruct a single original form for each of the roots and for the prefix, and postulate the changes you think must have taking place to produce these variants. Can you establish a relative chronology for any of these changes? Provide sample derivations which show your reconstruction and how the changes apply to it for both the simple and the prefixed forms in 2, 12, 13, 15, and 19. (The prefix in the second column has a range of functions, among them, it places focus on the agent (`doer') of a verb, derives transitive or causative verbs, and derives verbs from nouns.) \\
+
+The following forms have multiple variants:
+\begin{center}
+\begin{tabular}{ll}
+{\it prefix} & \ip{m@-} \ip{m@N-} \ip{m@n-} \ip{m@\*n-} \\
+11. `send' & \ip{kirim} \ip{irim} \\
+13. `write' & \ip{tulis} \ip{ulis} \\
+15. `hit' & \ip{pukul} \ip{ukul}
+\end{tabular}
+\end{center}
+
+\newpage
+
+Here are the postulated reconstructed forms:
+\begin{center}
+\begin{tabular}{rll}
+0. & \ip{*m@N-} & {\it prefix} \\
+1. & \ip{*lempar} & `throw' \\
+2. & \ip{*rasa} & `feel' \\
+3. & \ip{*wakil} & `represent' \\
+4. & \ip{*yakin} & `convince' \\
+5. & \ip{*masak} & `cook' \\
+6. & \ip{*nikah} & `marry' \\
+7. & \ip{*NatSo} & `chat' \\
+8. & \ip{*\*na\*ni} & `sing' \\
+9. & \ip{*hituN} & `count' \\
+10. & \ip{*gambar} & `draw a picture' \\
+11. & \ip{*kirim} & `send' \\
+12. & \ip{*d@Nar} & `hear' \\
+13. & \ip{*tulis} & `write' \\
+14. & \ip{*bantu} & `help' \\
+15. & \ip{*pukul} & `hit' \\
+16. & \ip{*dZahit} & `sew' \\
+17. & \ip{*tSatat} & `note down' \\
+18. & \ip{*ambil} & `take' \\
+19. & \ip{*isi} & `fill up' \\
+20. & \ip{*undaN} & `invite'
+\end{tabular}
+\end{center}
+Here are the proposed sound changes to account for the presented surface forms:
+\begin{enumerate}
+\item nasals \label{sonorant}are deleted when followed by a sonorant consonant
+\item nasals \label{place}assimilate (place of articulation) to following consonants
+\item \label{boundary} unvoiced stops are deleted following morpheme boundaries when preceded by a nasal
+\end{enumerate}
+Rule~\ref{boundary} includes the morpheme boundary as part of the conditioning environment because of data item 1, \ip{lempar} `throw'.
+
+As for the relative chronology for the proposed rules, Rule~\ref{boundary} must follow Rule~\ref{place}. This prevents a ``bleeding'' relationship between the rules. That is, application of Rule~\ref{boundary} before Rule~\ref{place} would result in the incorrect nasal for data items 13 an 15. As far as other interactions between rules are concerned: Rules~\ref{sonorant} and~\ref{place}, they could be applied in either order. The intermediate stages would differ, but the end result would be the same. Rules~\ref{sonorant} and~\ref{boundary} describe mutually exclusive environments so could be applied with no change in the results.
+
+Example of rule application on data item 2:
+\begin{center}
+\begin{tabular}{ll}
+Proposed underlying form & \ip{*m@N-*rasa} \\
+Rule 1 & \ip{*m@-*rasa} \\
+Rule 2 & \ip{*m@-*rasa} \\
+Rule 3 & \ip{*m@-*rasa} \\
+Final form & \ip{m@rasa} \qquad $\surd$
+\end{tabular}
+\end{center}
+Example of rule application on data item 12:
+\begin{center}
+\begin{tabular}{ll}
+Proposed underlying form & \ip{*m@N-*d@Nar} \\
+Rule 1 & \ip{*m@N-*d@Nar} \\
+Rule 2 & \ip{*m@n-*d@Nar} \\
+Rule 3 & \ip{*m@n-*d@Nar} \\
+Final form & \ip{m@nd@Nar} \qquad $\surd$
+\end{tabular}
+\end{center}
+Example of rule application on data item 13:
+\begin{center}
+\begin{tabular}{ll}
+Proposed underlying form & \ip{*m@N-*tulis} \\
+Rule 1 & \ip{*m@N-*tulis} \\
+Rule 2 & \ip{*m@n-*tulis} \\
+Rule 3 & \ip{*m@n-*ulis} \\
+Final form & \ip{m@nulis} \qquad $\surd$
+\end{tabular}
+\end{center}
+Example of rule application on data item 15:
+\begin{center}
+\begin{tabular}{ll}
+Proposed underlying form & \ip{*m@N-*pukul} \\
+Rule 1 & \ip{*m@N-*pukul} \\
+Rule 2 & \ip{*m@m-*pukul} \\
+Rule 3 & \ip{*m@m-*ukul} \\
+Final form & \ip{m@mukul} \qquad $\surd$
+\end{tabular}
+\end{center}
+Example of rule application on data item 19:
+\begin{center}
+\begin{tabular}{ll}
+Proposed underlying form & \ip{*m@N-*isi} \\
+Rule 1 & \ip{*m@N-*isi} \\
+Rule 2 & \ip{*m@N-*isi} \\
+Rule 3 & \ip{*m@N-*isi} \\
+Final form & \ip{m@Nisi} \qquad $\surd$
+\end{tabular}
+\end{center}
+
+
+\end{document}

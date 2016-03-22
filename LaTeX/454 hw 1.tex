@@ -1,0 +1,198 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{url}
+\usepackage{lingmacros}
+\usepackage{tipa}
+\usepackage{stmaryrd}
+
+\begin{document}
+
+\title{Ling 454 \\ Homework 1}
+\author{Dan Jinguji \\ 7339426}
+\date{Due: Tuesday 18 October 2011}
+
+\maketitle
+
+\renewcommand\thesection {\arabic{section}:}
+\renewcommand\thesubsection {(\alph{subsection})}
+\newcommand{\and}{\,\&\;}
+\newcommand{\llb}{\ensuremath{\llbracket}}
+\newcommand{\rrb}{\ensuremath{\rrbracket}}
+\newcommand{\blt}{\ensuremath{\bullet\;}}
+\newcommand{\sem}[1]{\ensuremath{\llbracket\mathrm{#1}\rrbracket}}
+%\newcommand{\und}{\ensuremath{\!\_\,}}
+\newcommand{\und}{\ensuremath{\_\,}}
+\newcommand{\then}{\ensuremath{\rightarrow}}
+\newcommand{\dom}[1]{\ensuremath{\mathbf{D}_{\mathrm{#1}}}}
+\newcommand{\lamb}[3]{{[\ensuremath{\lambda\mathrm{#1}\;\in\;{#2}\;.\;}{#3}]}}
+\newcommand{\ip}[1]{\textipa{#1}}
+\newcommand{\rd}{\textrtaild}
+
+\section{Exercise 2.5: Sound change in dialects of Tulu (Dravidian)}
+
+The forms in the Sapaliga dialect correspond to those of the oldest stage of the language; therefore, compare the forms in the other dialects to those in Sapaliga and determine what sound changes have taken place in each of the other dialects of Tulu. Write out and list the sound changes for each dialect, and identify (name) the kind of change involved in each instance, wherever this is possible. Do you imagine that some of the dialects went through more than one change in intermediate stages to arrive at some of the individual sounds they now have? If so, what might the intermediate stages have been? \\
+%\textsc{Note}: $\langle$c$\rangle$ = [c] (\textsc{ipa} \ip{[tS]}) \\
+\textsc{Note}: The following data has been transcribed into IPA. \\
+
+\begin{tabular}{rllllll}
+& {\it Sapaliga} & {\it Holeya} & {\it Setti} & {\it Jain 1} & {\it Jain 2} \\
+1. & \ip{tare} & \ip{tSare} & \ip{sare} & \ip{hare} & \ip{are} & `wear off' \\
+2. & \ip{tali} & \ip{tSali} & \ip{sali} & \ip{hali} & \ip{ali} & `sprinkle' \\
+3. & \ip{tav\rd u} & \ip{tSav\rd u} & \ip{sav\rd u} & \ip{hav\rd u} & \ip{av\rd u} & `bran' \\
+4. & \ip{to:dZ1} & \ip{tSo:dZ1} & \ip{so:dZ1} & \ip{ho:dZ1} & \ip{o:dZ1} & `appear' \\
+5. & \ip{tin1} & \ip{tSin1} & \ip{sin1} & \ip{hin1} & \ip{in1} & `eat' \\
+6. & \ip{tudE} & \ip{tSudE} & \ip{sudE} & \ip{hudE} & -- & `river' \\
+7. & \ip{to:\rd u} & \ip{tSo:\rd u} & \ip{so:\rd u} & \ip{ho:\rd u} & \ip{o:\rd u} & `stream' \\
+8. & \ip{tanE} & \ip{tSAnE} & \ip{sAnE} & \ip{hAnE} & \ip{AnE} & `conceiving (of cattle)' \\
+9. & \ip{tappu} & \ip{tSappu} & \ip{sappu} & \ip{happu} & \ip{appu} & `leaf' \\
+10. & \ip{taj} & \ip{tSaj} & \ip{saj} & \ip{haj} & \ip{aj} & `die' \\
+11. & \ip{tavtE} & \ip{tSavtE} & \ip{savtE} & \ip{havtE} & \ip{avtE} & `cucumber' \\
+12. & \ip{tuttu} & \ip{tSuttu} & \ip{suttu} & \ip{huttu} & \ip{uttu} & `wear' \\
+13. & \ip{tumbu} & \ip{tSumbu} & \ip{sumbu} & \ip{humbu} & \ip{umbu} & `carry on head' \\
+14. & \ip{tu:} & \ip{tSu:} & \ip{su:} & \ip{hu:} & \ip{u:} & `die' 
+\end{tabular}
+
+\newpage
+Notes on the transcription:
+\begin{enumerate}
+\item The macron over \ip{/\={o}/} and \ip{/\={u}/} was understood to indicate vowel lengthening, and so was rendered as \ip{/o:/} and \ip{/u:/}, respectively.
+\item The combination \ip{/ay/} was understood be an un-rounded diphthong, and so was rendered as \ip{/aj/}.
+\end{enumerate}
+
+Assumption: The data presented is phonemic, rather than phonetic. So the variation presented indicates phonological changes in Tulu, rather than phonological processes underlying allophonic variation.
+
+All of the data presented here shows lenition of the word-initial consonant \ip{/t/}. The specifics of the lenition vary based on the ``target'' language.
+
+The one ``odd'' piece of data is found in line 8. In this line, the first vowel is \ip{/a/} in Sapaliga, while it is uniformly \ip{/A/} in the other four languages. The instructions state that Sapaliga corresponds to the oldest form. However, I am hard pressed to determine a rational environment or plausible mechanism for a low central vowel \ip{/a/} to change to a low back vowel \ip{/A/} in the environment /\und[{\it nasal}][{\it front mid vowel}].
+\begin{center}
+\ip{/a/} $>$ \ip{/A/} / \und \ip{nE} \; ??
+\end{center}
+It seems more plausible that the original ``proto-Tulu'' may have had two low vowels \ip{/a/} and \ip{/A/} which merged in Sapaliga, but were retained as separate phonemes in the other dialects, with line 8 being the only example of the low back vowel in our data set.
+
+\subsection{Holeya}
+
+In Holeya, we see lenition of the word-initial stop \ip{/t/} to the affricate \ip{/tS/}.
+\begin{center}
+\ip{/t/} $>$ \ip{/tS/} / \#\und 
+\end{center}
+Assuming the stop is alveolar, then it appears that there may be palatalization of the sound as well, since it has backed slightly. One could postulate an intermediate palatalized stop \ip{/t\super{j}/}, leading to the affricate \ip{/tS/}.
+
+\subsection{Setti}
+
+In Setti, we see lenition of the word-initial stop \ip{/t/} to the fricative \ip{/s/}.
+\begin{center}
+\ip{/t/} $>$ \ip{/s/} / \#\und
+\end{center}
+One could postulate an intermediate affricate \ip{/ts/}, leniting to the fricative \ip{/s/}.
+
+\subsection{Jain 1}
+
+In Jain 1, we see even greater lenition of the word-initial stop \ip{/t/} to the fricative \ip{/h/}.
+\begin{center}
+\ip{/t/} $>$ \ip{/h/} / \#\und
+\end{center}
+One could postulate an intermediate (homorganic) affricate \ip{/ts/}, leniting to an intermediate (homorganic) fricative \ip{/s/}, weakening to the glottal fricative \ip{/h/}.
+
+\subsection{Jain 2}
+
+In Jain 2, we see deletion of the word-initial stop \ip{/t/}, complete weakening, if you will.
+\begin{center}
+\ip{/t/} $>$ \O / \#\und
+\end{center}
+One could postulate an intermediate affricate \ip{/ts/}, leniting to an intermediate fricative \ip{/s/}, weakening to the glottal fricative \ip{/h/}, and then finally being deleted.
+
+\section{Exercise 2.6: Sound change -- Brule Spanish}
+
+Brule Spanish is the dialect of Ascension Parish, Louisiana. Spanish speakers from the Canary Islands settled there in the late 1700s. Compare the Brule Spanish forms in the following data with the corresponding forms in Standard (American) Spanish, written in phonemic notation (standard spelling given in parentheses). Assume Standard Spanish is the older stage from which Brule Spanish has derived. That is, look for changes only in Brule Spanish -- find these changes by comparing Brule Spanish with Standard Spanish. Determine what sound changes have taken place in Brule Spanish and write rules to represent them. Do not attempt to determine what happened in cases involving differences in {\it o/u}, {\it e/i}, {\it s/z}, or {\it v/b}. (Based on data from Holloway 1997.) \\
+\textsc{note}: The data has been rearranged and rendered in IPA. \\
+
+\begin{tabular}{rllll}
+& {\it Standard Spanish} & {\it Brule Spanish} & {\it Gloss} & {\it Orthography} \\
+1. & \ip{"largo} & \ip{"lalgo} & `long' & largo \\
+2. & \ip{mar"tijo} & \ip{mal"tijo} & `hammer' & martillo \\
+3. & \ip{"barba} & \ip{"valba} & `beard' & barba \\
+4. & \ip{"sjempre} & \ip{sjemple} & `always' & siempre \\
+5. & \ip{tem"prano} & \ip{tem"plano} & `early' & temprano \\
+\\
+6. & \ip{"kwerpo} & \ip{"kw\ae lpo} & `body' & cuerpo \\
+7. & \ip{ser"bjeta} & \ip{s\ae l"vjeta} & `table napkin' & servieta \\
+8. & \ip{"kwerbo} & \ip{"kw\ae lvo} & `crow' & cuervo \\
+9. & \ip{per"sona} & \ip{p\ae l"sona} & `person' & persona \\
+10. & \ip{er"mano} & \ip{\ae l"mano} & `brother' & hermano \\
+11. & \ip{"mwerto} & \ip{"mw\ae lto} & `dead' & muerto \\
+\\
+\end{tabular}
+
+\begin{tabular}{rllll}
+& {\it Standard Spanish} & {\it Brule Spanish} & {\it Gloss} & {\it Orthography} \\ 12. & \ip{"nada} & \ip{"naa} & `nothing' & nada \\
+13. & \ip{"todo} & \ip{"too} & `all' & todo \\
+14. & \ip{be"nado} & \ip{ve"nao} & `deer' & venado \\
+15. & \ip{ro"dija} & \ip{ru"ija} & `knee' & rodilla \\
+16. & \ip{pa"Red} & \ip{pa"Re} & `wall' & pared \\
+\\
+17. & \ip{"padre} & \ip{"paRe} & `father' & padre \\
+18. & \ip{"madre} & \ip{"maRe} & `mother' & madre \\
+19. & \ip{"pjedra} & \ip{"pjeRa} & `stone, rock' & piedra \\
+\\
+20. & \ip{ko"mjendo} & \ip{ko"mjeno} & `eating' & comiendo \\
+21. & \ip{"kwando} & \ip{"kwano} & `when' & quando \\
+22. & \ip{a"donde} & \ip{"one} & `where' & adonde \\
+\\
+23. & \ip{kor"tinas} & \ip{kul"tinah} & `curtains' & cortinas \\
+24. & \ip{"gatos} & \ip{"gatoh} & `cats' & gatos \\
+25. & \ip{djos} & \ip{djoh} & `God' & Dios \\
+26. & \ip{"notSes} & \ip{"notSeh} & `nights' & noches \\
+27. & \ip{ras"kando} & \ip{rah"kano} & `scratching' & rascando \\
+28. & \ip{esko"peta} & \ip{ehko"peta} & `shotgun' & escopeta \\
+29. & \ip{"kosta} & \ip{"kohta} & `coast' & costa \\
+30. & \ip{pes"kado} & \ip{peh"kao} & `fish' & pescado \\
+31. & \ip{ko"sjendo} & \ip{ko"zjeno} & `sewing' & cosiendo \\
+32. & \ip{u"sar} & \ip{u"za} & `to use' & usar \\
+33. & \ip{ka"misa} & \ip{ka"miza} & `shirt' & camisa \\
+34. & \ip{be"sero} & \ip{be"zero} & `calf' & becerro \\
+35. & \ip{ka"sar} & \ip{ka"za} & `to marry' & casar(se) \\
+\\
+36. & \ip{de"sir} & \ip{di"sir} & `to say' & decir \\
+37. & \ip{bes"tir} & \ip{vih"tir} & `to dress' & vestir \\
+38. & \ip{pe"daso} & \ip{pi"aso} & `piece' & pedazo \\
+39. & \ip{ro"dija} & \ip{ru"ija} & `knee' & rodilla \\
+40. & \ip{o"ir} & \ip{u"jir} & `to hear' & oir \\
+41. & \ip{jo"bjendo} & \ip{ju"vjeno} & `raining' & lloviendo \\
+\\
+42. & \ip{abis"peRo} & \ip{vih"peRo} & `beehive' & avispero \\
+43. & \ip{ama'Rijo} & \ip{ma"Rijo} & `yellow' & amarillo \\
+44. & \ip{ama"rar} & \ip{ma"ra} & `to tie up' & amarrar \\
+45. & \ip{a"donde} & \ip{"one} & `where' & adonde \\
+46. & \ip{a"legre} & \ip{"legle} & `happy' & alegre \\
+47. & \ip{abe"xon} & \ip{bi"hon} & `bumblebee' & abej\'on \\
+48. & \ip{afei"tar} & \ip{"feita} & `to shave' & afeitar \\
+49. & \ip{"bija} & \ip{"vija} & `city / town' & billa
+\end{tabular}
+
+\newpage
+Based on the data presented, one can hypothesize the following sound changes.
+
+\begin{enumerate}
+\item \ip{/d/} $>$ \O / [{\it sonorant}]\und \\
+deletion of \ip{/d/} following a sonorant
+\item \ip{/s/} $>$ \ip{/h/} / \und $\sigma$ \\
+lenition of \ip{/s/} to \ip{/h/} at the end of syllable \\
+\ip{/x/} $>$ \ip{/h/} \\
+lenition of veler fricatives to the glottal fricative
+\item \ip{/a/} $>$ \O / \#\und \\
+deletion of word initial \ip{/a/}
+\item \ip{/r/} $>$ \ip{/l/} / \und C \\
+\ip{/r/} $>$ \ip{/l/} / C\und \\
+\ip{/r/} becomes \ip{/l/} when it's adjacent to another consonant
+\item \ip{/e/} $>$ \ip{/\ae/} / \und l \\
+\ip{/e/} lowers to \ip{/\ae/} before \ip{/l/}
+\item \ip{/r/} $>$ \O / a\und \# \\
+deletion of \ip{/r/}, at the end of the word, following an \ip{/a/}.
+\end{enumerate}
+
+Given the notes on the transcription, the change from \ip{/r/} to \ip{/R/} in lines 17, 18, and 19, can be viewed as allophonic variation, rather a change in phoneme, since \ip{/r/} and \ip{/R/} are allophones of the same consonant, except in the environment of being between to vowels, that is \ip{/r/} and \ip{/R/} are in contrast only intervocalically.
+
+\end{document}

@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{url}
+\usepackage{lingmacros}
+\usepackage{tipa}
+\usepackage{stmaryrd}
+
+\begin{document}
+
+\title{Ling 454 \\ Homework 3}
+\author{Dan Jinguji \\ 7339426}
+\date{Due: Thursday 10 November 2011}
+
+\maketitle
+
+\renewcommand\thesection {\arabic{section}:}
+\renewcommand\thesubsection {(\arabic{subsection})}
+\renewcommand\thesubsubsection{\alph{subsubsection}.}
+\newcommand{\and}{\,\&\;}
+\newcommand{\llb}{\ensuremath{\llbracket}}
+\newcommand{\rrb}{\ensuremath{\rrbracket}}
+\newcommand{\blt}{\ensuremath{\bullet\;}}
+\newcommand{\sem}[1]{\ensuremath{\llbracket\mathrm{#1}\rrbracket}}
+%\newcommand{\und}{\ensuremath{\!\_\,}}
+\newcommand{\und}{\ensuremath{\_\,}}
+\newcommand{\then}{\ensuremath{\rightarrow}}
+\newcommand{\dom}[1]{\ensuremath{\mathbf{D}_{\mathrm{#1}}}}
+\newcommand{\lamb}[3]{{[\ensuremath{\lambda\mathrm{#1}\;\in\;{#2}\;.\;}{#3}]}}
+\newcommand{\ip}[1]{\textipa{#1}}
+\newcommand{\rd}{\textrtaild}
+
+\section{Exercise 5.2: Tulu}
+
+Tulu is a Dravidian language (of India) which has several varieties. Consider the following data from two principle varieties. Focus your attention only on the nasals. What will you reconstruct for these? How many nasals do you postulate for Proto-Tulu? State your evidence. \\
+
+There are two nasals in the data provided, \ip{\:n} and \ip{n}. Both of these appear in cognates from Shivalli. Only \ip{n} appears in the Sapaliga cognates. Considering the environments for these nasals in Shivalli, there is no clear pattern which would lead us to postulate a single source nasal in Proto-Tulu which is realized as these two sounds. Most telling are the following word pairs: words 1 (\ip{a:\:n\textbari}) and 7 (\ip{dZa:nE}) where we see both nasals following a long low back vowel (\ip{a:}) and words 4 (\ip{ko:\:nE}) and 7 (\ip{dZa:nE}) where we see both nasals followed by a lax, mid-front vowel (\ip{E}). Since there doesn't seem to be a ``reasonable'' conditioning environment to prompt a split to create the two nasals in Shivalli, it seems more plausible that Proto-Tulu had two nasals that merged in Sapaliga. It is difficult to postulate a total number of nasals in Proto-Tulu based on this data. It seems likely that it would minimally include a labial nasal (\ip{m}) in addition to the alveolar and retroflex given in this problem, based on common patterns in world languages. It is likely that the nasal inventory or Proto-Tulu also included a velar nasal (\ip{N}) and a palatal nasal (\ip{\textltailn}), because those seem to be common additional places of articulation when there are both alveolar and retroflex stops. It is possible that Proto-Tulu also included a dental nasal (\ip{\textsubbridge{n}}), based on the nasal inventory or another Dravidian language, Malayalam, though the combination of dental and alveolar as contrastive is rather uncommon for languages in that area.
+
+\section{Exercise 5.5: Lencan}
+
+Compare the cognates from the two Lencan languages (both of which have recently become extinct: Chilanga Lenca was spoken in El Salvador; Honduran Lenca was spoken in Honduras). Work only with the consonants in this problem (the changes involving the vowels are too complex to solve with these data alone). (1) Set up the correspondence sets; (2) reconstruct the sounds of Proto-Lencan; (3) find and list the sound changes which took place in each language; and (4) determine what the relative chronology may have been in any cases where more than one change took place in either individual language, if there is evidence which shows this.
+
+{\sc Note}: \ip{t'}, \ip{k'}, and \ip{ts'} are glottalized consonants. Also, these data do not provide enough information for you to recover all the consonants of the proto-language, so that it will be difficult to apply steps 5 and 6 here. \\
+
+\subsection{Correspondence sets}
+
+Here are the correspondence sets for Honduran Lenca and Chilanga
+
+\begin{center}
+\begin{tabular}{cl}
+Honduran Lenca / Chilanga & Data \\
+p / p & 1, 2, 3 \\
+l / l & 2, 18, 23, 24, 25, 26, 32 \\
+k / k & 3, 6, 7, 8, 18, 37, 41 \\
+t / t & 4, 5, 8, 9, 25, 40 \\
+m / m & 5, 7, 10, 21 \\
+\O / m & 7, 42 \\
+w / w & 9, 14, 19, 23, 24, 26, 27, 29, 30, 32, 39 \\
+k / \O & 9, 10, 11 \\
+k / h & 9, 11, 12, 13, 22, 38 \\
+k / k' & 10, 16, 17, 18 \\
+s / s & 11, 31, 32 \\
+n / n & 12, 13, 16, 18 \\
+s / ts' & 13, 19, 20, 21, 22 \\
+t / t' & 14, 15 \\
+n / l & 17, 36 \\
+n / \O & 17, 29 \\
+\ip{dZ} / \ip{dZ} & 20, 34, 40, 41 \\
+s / l & 27, 28, 29 \\
+\O / h & 28, 31, 33 \\
+r / r & 30, 31, 33 \\
+s / \ip{S} & 33, 34, 35, 36, 37, 38, 42 \\
+\end{tabular}
+\end{center}
+
+The sound presented here are in IPA. The transcribed {\it j} was understood to be the voiced affricate \ip{dZ}.
+
+\subsection{Sounds of Proto-Lencan}
+
+\begin{center}
+\begin{tabular}{rcll}
+1 & p / p & *p & 1, 2, 3 \\
+2 & r / r & *r & 30, 31, 33 \\
+3 & w / w & *w & 9, 14, 19, 23, 24, 26, 27, 29, 30, 32, 39 \\
+4 & \ip{dZ} / \ip{dZ} & *\ip{dZ} & 20, 34, 40, 41 \\
+5 & l / l & *l & 2, 18, 23, 24, 25, 26, 32 \\
+6 & n / l & *n & 17, 36 \\
+7 & n / n & *n & 12, 13, 16, 18 \\
+8 & n / \O & *n & 17, 29 \\
+9 & k / k & *k & 3, 6, 7, 8, 18, 37, 41 \\
+10 & k / k' & *k' & 10, 16, 17, 18 \\
+11 & k / \O & *k & 9, 10, 11 \\
+12 & k / h & *k & 9, 11, 12, 13, 22, 38 \\
+13 & \O / h & *h & 28, 31, 33 \\
+14 & t / t & *t & 4, 5, 8, 9, 25, 40 \\
+15 & t / t' & *t' & 14, 15 \\
+16 & m / m & *m & 5, 7, 10, 21 \\
+17 & \O / m & *m & 7, 42 \\
+18 & s / s & *ts & 11, 31, 32 \\
+19 & s / \ip{S} & *ts & 33, 34, 35, 36, 37, 38, 42 \\
+20 & s / ts' & *ts' & 13, 19, 20, 21, 22 \\
+21 & s / l & *ts & 27, 28, 29 \\
+\end{tabular}
+\end{center}
+
+The most problematic of the sounds listed in the table above is number 4. There is no other voiced obstruent among the reconstructed consonantal sounds. Since the interpretation of the {\it j} in the transcription system as a voiced affricate is a guess, it seems less likely correct. If the {\it j} represents the voiced palatal approximate, the reconstructed consonant system seems to make more sense. Since this sounds seems to be relatively ``isolated'', it doesn't have much impact on the reconstructed sounds.
+
+A few notes: The reconstructed *ts is proposed, even though it does not appear in either of the daughter languages. There are several reasons for this. First, it provides a reasonable analog for the glottalized *ts', since the other proposed glottalized consonants, *k' and *t', have non-glottalized analogs. Actually, it might make more sense to postulate a pair of palatal stops, *c and *c', instead of the affricates, *ts and *ts'. It is not difficult to see how palatal stops would lenite in to these affricates.
+
+There are some other things that seems a bit odd, but the write-up explicitly states that judging the completeness or ``reasonableness'' of the reconstructed system is stymied by the small size of the data set.
+
+\subsection{Sound changes}
+
+\subsubsection{Honduran Lenca}
+
+There are a number of ``no-op'' changes from Proto-Lenca to Honduran Lenca. \begin{center}
+*p, *r, *w, *\ip{dZ} (*j), *l, *n, *k, *t $>$ p, r, w, \ip{dZ} (j), l, n, k, t 
+\end{center}
+
+There are also several unconditioned changes for Honduran Lenca, essentially all of them are forms of lenition.
+Loss of glottalization:
+\begin{center}
+*k', *t', *ts' $>$ k, t, ts
+\end{center}
+Spirantization:
+\begin{center}
+ts $>$ s
+\end{center}
+Deletion:
+\begin{center}
+*h $>$ \O
+\end{center}
+
+There is also one conditioned change that is proposed for Honduran Lenca:
+\begin{align*}
+^*\textrm{m} > 
+\left\{
+\begin{array}{ll} 
+  \textrm{\O} & /\textrm{a}\und\# \\ 
+  \textrm{m} & elsewhere 
+\end{array}
+\right. 
+\end{align*}
+
+\subsubsection{Chilenga}
+
+There are a number of ``no-op'' changes from Proto-Lenca to Chilenga.
+\begin{center}
+*p, *r, *w, *\ip{dZ} (*j), *l, *k', *h, *t, *t', *m $>$ p, r, w, \ip{dZ} (j), l, k', h, t, t', m
+\end{center}
+
+The remainder of the changes for Chilenga are conditioned.
+\begin{align*}
+^*\textrm{k} &> \left\{\begin{array}{ll}
+\textrm{\O} & /\und C \\
+\textrm{h} & /\und \# \\
+\textrm{k} & elsewhere
+\end{array}\right. \\
+^*\textrm{n} &> \left\{\begin{array}{ll}
+\textrm{\O} & /\textrm{a}\und\# \\
+\textrm{l} & /\textrm{u}\und \\
+\textrm{n} & elsewhere
+\end{array}\right. \\
+^*\textrm{ts} &> \left\{\begin{array}{ll}
+\textrm{s} & /\und\textrm{i} \\
+\textrm{l} & /\textrm{a}\und \\
+\textrm{\ip{S}} & elsewhere
+\end{array}\right.
+\end{align*}
+ 
+Some of these conditioned changes may look a bit odd at first glance, however, I believe they are plausible. The conditioned changes are discussed individually below.
+
+{\bf Changes for *k} \\
+This set of changes is the least-noteworthy. We see lenition of the stop in coda positions.
+
+{\bf Changes for *n} \\
+The deletion word-finally following {\it a} shouldn't seem too odd. However, the conditioned change to {\it l} may seem odd. My reasoning here: The tongue position for {\it u} would retract the body of the tongue. This could lead to a partial closure \ldots potentially with a lateral opening, producing {\it l}.
+
+{\bf Changes for *ts} \\
+This is the set that needs the most justification. The most suspicious looking proposed change is the following:
+\begin{center} *ts $>$ l /a\und \end{center}
+It seems less contrived when one postulates intermediate steps:
+\begin{center} *ts $>$ *\ip{t\textbeltl} $>$ *\ip{\textbeltl} $>$ *\ip{Z} $>$ l \end{center} 
+The case of some proto-consonant leading to s and \ip{S} led to the choice of *ts.
+\begin{align*}^*\textrm{?} &> \left\{\begin{array}{ll}
+\textrm{s} & /\und\textrm{i} \\
+\textrm{\ip{S}} & elsewhere
+\end{array}\right.\end{align*}
+The lenition of *ts $>$ s /\und i seems far more plausible than the loss of palatization *\ip{S} $>$ s /\und i. In fact, this is contrary to a very common sound change. Even though ``majority rules'' would suggest *\ip{S}, the sound changes were problematic. Similarly, *ts can reasonably lead to the most common derived phone \ip{S}, particularly when one considers likely intermediate steps
+\begin{center} *ts $>$ *\ip{tS} $>$ \ip{S} \end{center}
+
+\subsection{Relative chronology}
+
+There is no clear relative chronology implied by the sound changes in Honduran Lenca or Chilenga. 
+
+The unconditioned lenition rules of Honduran Lenca are written to suggest loss of glottalization before spirantization, but the same rules could be applied in the opposite order with the same outcome, with the minor change that the spirantization rule would be as follows. 
+\begin{center}*ts', *ts $>$ s', s\end{center} The realization of the glottalized fricative may be problematic, but the theoretical form could be postulated.
+
+There are two places where the sound changes suggest relative chronology. However, these are somewhat peripheral to the sound changed noted in the rest of this problem.
+
+1) Data item 36, \ip{suna} / \ip{Sila} `flower' suggests some alternation in the languages between {\it u} and {\it i}. This analysis assumes that the Honduran {\it u} is closer to the original Proto-Lencan vowel. This would condition the change of *ts to \ip{S} rather than s. Thus, the implied vowel change would need to come later.
+
+2) This depends on the reconstructed form for data item 33, \ip{suri-sur} / \ip{Surih} `squirrel'. If the proto-form is *tsurih, then the order of changes does not matter. If the proto-form is *tsurik, then the reduplication must occur before the deletion of *k before other consonants. It's a feeding relationship.
+
+\end{document}
