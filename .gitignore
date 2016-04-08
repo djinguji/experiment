@@ -1,0 +1,20 @@
+##########
+#
+# Files and folders to ignore
+#
+##########
+
+# ignore Msft webtools config folders
+_vti_cnf/
+_vti_pvt/
+_private/
+
+# ignore windows desktop files
+desktop.ini
+
+# ignore LaTeX intermediate files
+*.log
+*.aux
+*.synctex
+
+
