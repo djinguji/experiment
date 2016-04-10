@@ -1,16 +1,16 @@
 \documentclass[12pt,USLetter]{article}
 
-\usepackage[in]{fullpage}
+\usepackage{fullpage}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphics}
-\usepackage{fancyhdr}
+%\usepackage{fancyhdr}
 
-\pagestyle{fancy}
-\fancyhf{}
-\lfoot{AMATH 503, Assignment 1}
-\rhead{Dan Jinguji}
-\cfoot{\thepage}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\lfoot{AMATH 503, Assignment 1}
+%\rhead{Dan Jinguji}
+%\cfoot{\thepage}
 
 % remove the \Re and \Im operators
 %\let \Re \relax
@@ -60,8 +60,8 @@ also known as the lossy heat equation, was derived by the nineteenth-century Sco
 Show that the general solution for this equation is given by: $v(x,t) = e^{-\alpha t} u(x,t)$, where $u(x,t)$ solves the heat equation.
 
 \begin{align*}
-\pd{t}u(x,t) &= \gamma \spd{x}u(x,t) \qquad \mathrm{given} \\
-v(x,t) &= e^{-\alpha t} u(x,t) \\
+\pd{t}u(x,t) &= \gamma \spd{x}u(x,t) \qquad \mathrm{given} \,
+v(x,t) = e^{-\alpha t} u(x,t) \\
 \spd{x}v(x,t) &= e^{-\alpha t} \spd{x}u(x,t) \\
 \pd{t}v &= (-\alpha) e^{-\alpha t} u(x,t) + e^{-\alpha t} \pd{t}u(x,t) \\
 &= -\alpha e^{-\alpha t} u(x,t) + e^{-\alpha t} \gamma \spd{x}u(x,t) \\
@@ -136,7 +136,7 @@ X(x) &= A_n\sin(nx) \\
 T(t) &= \alpha\sin(nt) + \beta\cos(nt) \\
 u(x,t) &= \Sigma_{n=1}^{\infty}\sin(nx) (\alpha_n\sin(nt) + \beta_n\cos(nt)) \\
 \pd{t}u(x,t) &= \Sigma_{n=1}^\infty\sin(nx) (\alpha_n n\cos(nt) - \beta_n n\sin(nt)) \\
-\pd{t}u(x,0) &= 0 = \Sigma_{n=1}^\infty\sin(nx) (\alpha_n n\cos(0) - \beta_n n\sin(0)) \qquad \therefore \alpha_n = 0 
+\pd{t}u(x,0) &= 0 = \Sigma_{n=1}^\infty\sin(nx) (\alpha_n n\cos(0) - \beta_n n\sin(0)) \qquad \therefore \alpha_n = 0
 \end{align*}
 \begin{align*}
 u(x,t) &= \Sigma_{n=1}^{\infty}\sin(nx) (\beta_n\cos(nt)) \\
@@ -144,8 +144,8 @@ u(x,0) &= 1 = \signtoinf\sin(nx) (\beta_n\cos(0)) \\
 1 &= \signtoinf\sin(nx)\beta_n \\
 \int_0^\pi\sin(mx)dx &= \beta_n\int_0^\pi\sin(mx)\sin(nx)dx \\
 \beta_n &= 2 / n \;\where n \in {1, 3, 5, 7, 9 ...} \\
-u(x,t) &= \signtoinf\sin((2n-1)x) (2/(2n-1)\cos((2n-1)t)) 
-\end{align*} 
+u(x,t) &= \signtoinf\sin((2n-1)x) (2/(2n-1)\cos((2n-1)t))
+\end{align*}
 
 \subsection{}
 
@@ -204,11 +204,11 @@ T(t) &= \alpha\sin(\lambda t) + \beta\cos(\lambda t) \\
 &= \alpha\sin(\tfrac{1}{2}nt) + \beta\cos(\tfrac{1}{2}nt) \\
 u(x,t) &= \signtoinf \sin(\tfrac{1}{2}nx)(\alpha_n\sin(\half nt) + \beta_n\cos(\half nt)) \\
 u(x,0) &= \signtoinf \sin(\tfrac{1}{2}nx)(\alpha_n\sin(0) + \beta_n\cos(0)) \\
-x &= \signtoinf \sin(\half nx) \beta_n 
+x &= \signtoinf \sin(\half nx) \beta_n
 \end{align*}
 \begin{align*}
 \int_0^\pi x\sin(\half mx) dx &= \signtoinf \beta_n \int_0^\pi \sin(\half mx)\sin(\half nx) dx \\
-\tfrac{4}{m^2}\sin(\half \pi m) - \tfrac{2\pi}{m}\cos(\half \pi m) 
+\tfrac{4}{m^2}\sin(\half \pi m) - \tfrac{2\pi}{m}\cos(\half \pi m)
 &= \beta_m (\half\pi - \tfrac{1}{2m}\sin(\pi m)) \\
 \pd{t}u(x,t) &= \signtoinf \sin(\half nx) (\half\alpha_nn\cos(\half nt) - \half\beta_nn\sin(\half nt)) \\
 \pd{t}u(x,0) &= -x = \signtoinf\sin(\half nx) \half(\alpha_nn\cos(0) - \beta_nn\sin(0)) \quad \therefore  \\

@@ -16,5 +16,7 @@ desktop.ini
 *.log
 *.aux
 *.synctex
+*.bbl
+*.blg
 
 
