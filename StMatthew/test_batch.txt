@@ -1,0 +1,12 @@
+### create a .ps (postscript file), with the same name
+I:\experiment\StMatthew>\work\abctools-win-20160410\abcm2ps-8.11.4.exe -O= test.abc
+abcm2ps-8.11.4 (April 10, 2016)
+File test.abc
+Output written on test.ps (1 page, 1 title, 26927 bytes)
+
+### create an .xhtml (extends html file), with the same name
+I:\experiment\StMatthew>\work\abctools-win-20160410\abcm2ps-8.11.4.exe -X -O= test.abc
+abcm2ps-8.11.4 (April 10, 2016)
+File test.abc
+Output written on test.xhtml (1 page, 1 title, 22977 bytes)
+
