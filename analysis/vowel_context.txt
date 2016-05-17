@@ -1,0 +1,114 @@
+   6 v	aa	Dad	
+   5 v	aa	HaDr	
+   2 v	aa	Ha\?g	
+   6 v	aa	Sad	
+  19 v	aa	Samt	S_
+   6 v	aa	Ta\?g	
+   3 v	aa	Tab	
+  19 v	aa	Tab\9e	T_
+  20 v	aa	Tbabh	Tx_
+   6 v	aa	\D-a\?g	
+   5 v	aa	\dhal	
+   3 v	aa	\tfa\?g	
+  20 v	aa	alan	_
+  21 v	aa	alfDa\?g	D_
+  21 v	aa	alnaSrh	_S
+  21 v	aa	anfSal	S_
+  20 v	aa	antSar	S_
+  20 v	aa	ant\D-am	Ð_
+  20 v	aa	awTan	T_
+  18 v	aa	baS	_S
+   6 v	aa	ba\?g	
+  16 v	aa	balTa\?grh	T_
+  20 v	aa	bsaTh	_T
+   5 v	aa	dal	
+  21 v	aa	fTam	T_
+  21 v	aa	faSl	_S
+   5 v	aa	fa\?g	
+   6 v	aa	ha\?g	
+  20 v	aa	ktab	_
+   7 v	aa	lam	_
+  21 v	aa	maD	_D
+   3 v	aa	maDn	
+   3 v	aa	maDr	
+  17 v	aa	maDy	_D
+  20 v	aa	mlabs	_
+  21 v	aa	mna\D-r	_Ð
+   8 v	aa	msa\9edh	
+  19 v	aa	mtwaSl	_S
+  21 v	aa	mwaTn	_T
+  19 v	aa	mwa\D-bh	_Ð
+  20 v	aa	n\D-afh	Ð_
+  17 v	aa	naDj	_D
+   5 v	aa	naDl	
+   3 v	aa	naDr	
+   2 v	aa	nmal	
+  21 v	aa	rDa\?g	D_
+   3 v	aa	rTanh	
+   2 v	aa	raTy	
+   2 v	aa	ra\?g	
+  18 v	aa	ratb	_
+  19 v	aa	sTam	T_
+   5 v	aa	ta\?g	
+  22 v	aa	tab	_
+  19 v	aa	tab\9e	_ʢ
+  13 v	aa	wasTh	_xT
+   2 v	aa	wsTy	
+   2 v	aa	xa\?g	
+   3 v	ii	S\9eyd	
+  13 v	ii	Sdyd	Sx_
+   5 v	ii	\shyn	
+   3 v	ii	awtwbys	
+  19 v	ii	fTyrh	T_
+   1 v	ii	hw(hy)	
+  21 v	ii	hy	_
+   6 v	ii	jym	
+  17 v	ii	jzyrh	_
+  22 v	ii	mSyr	S_
+  20 v	ii	mTyh	T_
+   3 v	ii	mTyr	
+   2 v	ii	maD	
+  15 v	ii	maDy	D_
+  16 v	ii	mtwDy\?g	Ð_
+   7 v	ii	mym	_
+   4 v	ii	nDyf	
+  20 v	ii	nSyb	S_
+  20 v	ii	n\D-yf	Ð_
+  17 v	ii	qDyb	D_
+   3 v	ii	rTyb	
+   3 v	ii	raTy	
+   3 v	ii	rtyb	
+   3 v	ii	s\9eyd	
+  19 v	ii	sdyd	_
+   2 v	ii	syf	
+   6 v	ii	syn	
+   4 v	ii	thmymh	
+  20 v	ii	tlyfwn	_
+   2 v	ii	wDy\?g	
+   3 v	ii	w\D-yf	
+  21 v	ii	w\D-yfh	Ð_
+  20 v	ii	wsyTh	_T
+  17 v	ii	yTyr	T_
+   4 v	uu	Smwt	
+  11 v	uu	\shrwT	_T
+   6 v	uu	\shrwt	
+  22 v	uu	aSwl	S_
+   6 v	uu	awtwbys	
+  21 v	uu	fDwl	D_
+  21 v	uu	fTwr	T_
+  17 v	uu	ftwr	_
+  19 v	uu	hw	_
+   3 v	uu	mSwl	
+   3 v	uu	mtwDy\?g	
+   7 v	uu	nwn	
+  21 v	uu	sTwr	T_
+  17 v	uu	skwt	_
+   3 v	uu	smwT	
+   2 v	uu	smwt	
+   3 v	uu	stwr	
+  19 v	uu	tlyfwn	_
+  17 v	uu	wDw\?g	D_
+   5 v	uu	wDwh	
+  21 v	uu	zhwr	_
+   1 v	aa	msa\9edh@	
+   1 v	uu	wDw\?g 	

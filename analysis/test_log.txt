@@ -1,0 +1,42 @@
+t: -0.470, p:  0.640, dt: 21/2/2011-14:21:57, F1 beg/mid abu Sa, N1 = 30, N2 = 40
+t: -0.470, p:  0.640, dt: 21/2/2011-14:21:57, F1 beg/mid abu Sa
+  vowel_word_F1_beg, ['abu', 'Sa', 'aa'] -- vowel_word_F1_mid, ['abu', 'Sa', 'aa']
+  Sample 1: N:   30, mean:  499.533, std:   43.682
+  Sample 2: N:   40, mean:  505.000, std:   51.251
+
+t: -9.456, p:  0.000, dt: 21/2/2011-14:21:57, F1 beg abu/all Sa
+  vowel_word_F1_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean:  505.000, std:   51.251
+  Sample 2: N:  224, mean:  617.246, std:   71.829
+
+t:  2.595, p:  0.010, dt: 21/2/2011-14:21:57, F1 beg abu/all Sa
+  vowel_word_F2_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean: 1229.625, std:   88.776
+  Sample 2: N:  224, mean: 1190.031, std:   88.904
+
+t: -4.298, p:  0.000, dt: 21/2/2011-14:21:57, F1 beg abu/all Sa
+  vowel_word_F3_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean: 2488.875, std:   87.341
+  Sample 2: N:  224, mean: 2615.768, std:  182.834
+
+t: -0.470, p:  0.640, dt: 9/5/2011-08:27:57, F1 beg/mid abu Sa, N1 = 30, N2 = 40
+t: -0.470, p:  0.640, dt: 9/5/2011-08:27:57, F1 beg/mid abu Sa
+  vowel_word_F1_beg, ['abu', 'Sa', 'aa'] -- vowel_word_F1_mid, ['abu', 'Sa', 'aa']
+  Sample 1: N:   30, mean:  499.533, std:   43.682
+  Sample 2: N:   40, mean:  505.000, std:   51.251
+
+t: -9.456, p:  0.000, dt: 9/5/2011-08:27:57, F1 beg abu/all Sa
+  vowel_word_F1_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean:  505.000, std:   51.251
+  Sample 2: N:  224, mean:  617.246, std:   71.829
+
+t:  2.595, p:  0.010, dt: 9/5/2011-08:27:58, F1 beg abu/all Sa
+  vowel_word_F2_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean: 1229.625, std:   88.776
+  Sample 2: N:  224, mean: 1190.031, std:   88.904
+
+t: -4.298, p:  0.000, dt: 9/5/2011-08:27:58, F1 beg abu/all Sa
+  vowel_word_F3_mid, ['abu', 'Sa', 'aa'], ['Sa', 'aa']
+  Sample 1: N:   40, mean: 2488.875, std:   87.341
+  Sample 2: N:  224, mean: 2615.768, std:  182.834
+

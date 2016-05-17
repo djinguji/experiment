@@ -1,0 +1,69 @@
+20	  3  3  3  2  3  3  3	aa	ktab
+20	  3  3  3  2  3  3  3	aa	alan
+20	  3  3  3  2  3  3  3	aa	mlabs
+18	  2  3  3  1  3  3  3	aa	ratb
+22	  3  3  3  4  3  3  3	aa	tab
+
+19	  3  3  3  2  2  3  3	aa	Samt
+21	  3  3  3  3  3  3  3	aa	anfSal
+20	  3  3  3  2  3  3  3	aa	antSar
+
+21	  3  3  3  3  3  3  3	aa	alnaSrh
+21	  3  3  3  3  3  3  3	aa	faSl
+19	  2  3  3  2  3  3  3	aa	mtwaSl
+
+21	  3  3  3  3  3  3  3	aa	alfDa\?g
+
+21	  1  3  3  5  3  3  3	aa	maD
+
+20	  3  3  3  2  3  3  3	aa	ant\D-am
+20	  3  3  3  2  3  3  3	aa	n\D-afh
+
+21	  3  4  3  2  3  3  3	aa	mna\D-r
+19	  2  3  3  2  3  3  3	aa	mwa\D-bh
+
+20	  3  3  3  2  3  3  3	aa	awTan
+21	  3  3  3  3  3  3  3	aa	fTam
+19	  2  3  3  3  3  3  2	aa	sTam
+
+20	  3  3  3  2  3  3  3	aa	bsaTh
+21	  3  3  3  3  3  3  3	aa	mwaTn
+
+7	  1  1  1  1  1  1  1	aa	lam
+21	  3  3  3  3  3  3  3	aa	rDa\?g
+
+19	  3  3  3  2  2  3  3	aa	Tab\9e
+19	  3  3  3  1  3  3  3	aa	tab\9e
+
+20	  3  3  3  2  3  3  3	ii	tlyfwn
+21	  3  3  3  3  3  3  3	ii	hy
+
+22	  5  3  3  2  3  3  3	ii	mSyr
+20	  3  3  3  2  3  3  3	ii	nSyb
+
+19	  3  3  3  1  3  3  3	ii	fTyrh
+20	  3  2  3  3  3  3  3	ii	mTyh
+
+20	  3  3  3  2  3  3  3	ii	wsyTh
+
+20	  3  3  3  2  3  3  3	ii	n\D-yf
+21	  3  3  3  3  3  3  3	ii	w\D-yfh
+
+13	  1  1  2  1  3  3  2	ii	Sdyd
+19	  3  2  3  3  3  3  2	ii	sdyd
+
+7	  1  1  1  1  1  1  1	ii	mym
+
+19	  2  3  3  2  3  3  3	uu	hw
+19	  2  3  3  2  3  3  3	uu	tlyfwn
+21	  3  3  3  3  3  3  3	uu	zhwr
+
+22	  3  3  3  3  3  3  4	uu	aSwl
+
+21	  3  3  3  2  3  3  4	uu	fDwl
+
+21	  4  3  3  2  3  3  3	uu	fTwr
+21	  3  3  3  3  3  3  3	uu	sTwr
+
+7	  1  1  1  1  1  1  1	uu	nwn
+17	  5  2  2  2  2  2  2	uu	wDw\?g
