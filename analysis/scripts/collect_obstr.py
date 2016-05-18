@@ -58,9 +58,9 @@ def main():
     a = [-1, 0.2, 0.9, 2.1]
     print(slope(a), mean(a))
     print(slope([-.4, 0.2, 0.9, 1.6]))
-    infile1 = open('c:/experiment/analysis/obstr_word.txt')
-    infile2 = open('c:/experiment/analysis/obstr_sf_word.txt')
-    outfile = open('c:/experiment/analysis/obstr_data.txt', 'w')
+    infile1 = open('obstr_word.txt')
+    infile2 = open('obstr_sf_word.txt')
+    outfile = open('obstr_new.txt', 'w')
     l1 = infile1.readline().split('\t')
     l2 = infile2.readline().split('\t')
     while len(l1) > 5 and len(l2) > 5:

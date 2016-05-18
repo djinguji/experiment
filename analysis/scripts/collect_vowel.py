@@ -58,8 +58,8 @@ def main():
     a = [-1, 0.2, 0.9, 2.1]
     print(slope(a), mean(a))
     print(slope([-.4, 0.2, 0.9, 1.6]))
-    infile = open('c:/experiment/analysis/vowel_word.txt')
-    outfile = open('c:/experiment/analysis/vowel_data.txt', 'w')
+    infile = open('vowel_word.txt')
+    outfile = open('vowel_new.txt', 'w')
     l = infile.readline().split('\t')
     while len(l) > 5:
         print(l)
