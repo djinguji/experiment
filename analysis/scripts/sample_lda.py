@@ -20,7 +20,7 @@ print('fit lda:', int((end-start)*1000), 'msec')
 print(clf.predict([[-0.8, -1], [2, 2], [0, 0.001]]))
 # [1]
 X = np.array([[1, 1], [2, 1], [3, 2], [-1, -1], [-2, -1], [-3, -2]])
-y = np.array([12, 12, 12, 31, 31, 31])
+y = np.array(['s', 's', 's', 'S', 'S', 'S'])
 start = time.clock()
 clf = LinearDiscriminantAnalysis()
 clf.fit(X, y)
@@ -28,5 +28,10 @@ end = time.clock()
 print('fit lda:', int((end-start)*1000), 'msec')
 # LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
 #               solver='svd', store_covariance=False, tol=0.0001)
-print(clf.predict([[-0.8, -1], [2, 2], [0, 0.001]]))
+response = clf.predict([[-0.8, -1], [2, 2], [0, 0.001]])
+print(response)
+print('response is list:', type(response) == type([]))
+print('response is', type(response.data))
+for v in response:
+	print(v, str(v))
 # [1]

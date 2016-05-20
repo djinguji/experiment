@@ -71,7 +71,7 @@ def main():
             f1 = []
             f2 = []
             f3 = []
-            outfile.write('%s+%s+%s+%s\t' % (spkr, vowel, orth, time))
+            outfile.write('%s+%s+%s+%s\t' % (spkr, orth, time, vowel))
             print('%s: %s' % (spkr, orth))
             f1.append(float(l[6]))
             f2.append(float(l[7]))

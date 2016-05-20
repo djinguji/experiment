@@ -75,7 +75,7 @@ def main():
         obstr = l1[1]
         orth = l1[10]
         time = l1[2]
-        outfile.write('%s+%s+%s+%s\t' % (spkr, obstr, orth, time))
+        outfile.write('%s+%s+%s+%s\t' % (spkr, orth, time, obstr))
         outfile.write('%s\t%s\t%s\t%s\t' % (l1[6], l1[7], l1[8], l1[9]))
         outfile.write('%s\t%s\t%s\t%s\n' % (l2[6], l2[7], l2[8], l2[9]))
         l1 = infile1.readline().split('\t')

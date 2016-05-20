@@ -1,0 +1,86 @@
+import numpy: 701 msec
+import lda: 1691 msec
+read: s_.txt, length: 335, chosen: 61
+read: s.txt, length: 291, chosen: 119
+fit lda: 4 msec, subject: abu
+
+read: s_at.txt, length: 20, chosen: 3
+['-' 'X' 'X']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['-' '-' 'X']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 47
+read: s.txt, length: 291, chosen: 89
+fit lda: 1 msec, subject: alohali
+
+read: s_at.txt, length: 20, chosen: 3
+['X' '-' 'X']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['X' '-' 'X']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 47
+read: s.txt, length: 291, chosen: 87
+fit lda: 1 msec, subject: alotaiq
+
+read: s_at.txt, length: 20, chosen: 3
+['-' 'X' 'X']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['X' 'X' '-']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 40
+read: s.txt, length: 291, chosen: 73
+fit lda: 1 msec, subject: mohammed
+
+read: s_at.txt, length: 20, chosen: 2
+['X' '-']
+['X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['X' 'X' 'X']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 42
+read: s.txt, length: 291, chosen: 72
+fit lda: 1 msec, subject: naif1
+
+read: s_at.txt, length: 20, chosen: 3
+['-' 'X' 'X']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['-' 'X' 'X']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 49
+read: s.txt, length: 291, chosen: 95
+fit lda: 1 msec, subject: naif2
+
+read: s_at.txt, length: 20, chosen: 3
+['-' '-' 'X']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['-' '-' '-']
+['-' '-' '-']
+
+read: s_.txt, length: 335, chosen: 49
+read: s.txt, length: 291, chosen: 91
+fit lda: 1 msec, subject: saud
+
+read: s_at.txt, length: 20, chosen: 3
+['X' 'X' '-']
+['X' 'X' 'X']
+
+read: sat.txt, length: 21, chosen: 3
+['-' 'X' 'X']
+['-' '-' '-']
+
