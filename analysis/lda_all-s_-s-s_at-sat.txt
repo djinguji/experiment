@@ -1,0 +1,18 @@
+import numpy: 699 msec
+import lda: 1702 msec
+read: s_.txt, length: 335
+read: s.txt, length: 291
+fit lda: 4 msec
+
+read: s_at.txt, length: 20
+['-' 'X' 'X' 'X' '-' 'X' 'X' 'X' 'X' 'X' '-' '-' 'X' 'X' '-' 'X' 'X' 'X'
+ '-' 'X']
+['X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X' 'X'
+ 'X' 'X']
+
+read: sat.txt, length: 21
+['X' 'X' 'X' 'X' 'X' '-' 'X' 'X' 'X' 'X' 'X' 'X' 'X' '-' 'X' 'X' '-' 'X'
+ 'X' 'X' '-']
+['-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-' '-'
+ '-' '-' '-']
+
