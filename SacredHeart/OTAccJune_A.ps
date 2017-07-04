@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0
 %%BoundingBox: 0 0 595 842
 %%Title: OTAccJune_A.abc
-%%Creator: abcm2ps-8.11.4
-%%CreationDate: May 25, 2017 11:50
+%%Creator: abcm2ps-8.13.1
+%%CreationDate: Jun 30, 2017 08:28
 %%Pages: (atend)
 %%LanguageLevel: 3
 %%EndComments
@@ -21,7 +21,7 @@
 /SLW/setlinewidth load def
 /defl 0 def
 /dlw{0.7 SLW}!
-/creator [(abcm2ps) 8 11 4] def
+/creator [(abcm2ps) 8 13 1] def
 /xydef{/y exch def/x exch def}!
 /xymove{/x 2 index def/y 1 index def M}!
 /showc{dup stringwidth pop .5 mul neg 0 RM show}!
@@ -273,12 +273,12 @@
 	}for
 	grestore}!
 /arp{gsave 90 rotate exch neg ltr grestore}!
-/gliss{	M 10 0 RM L 1 SLW stroke}!
-/glisq{	gsave exch 13 add exch 2 copy T
+/gliss{	M 2 0 RM L 1 SLW stroke}!
+/glisq{	gsave exch 7 add exch 2 copy T
 exch 4 -1 roll exch sub 3 1 roll sub
 2 copy exch atan dup rotate
 exch pop cos div
--6 -4 ltr grestore}!
+-5 -3 ltr grestore}!
 /wedge{1 add M -1.5 5 RL 3 0 RL -1.5 -5 RL fill}!
 /opend{dlw M currentpoint 3 add 2.5 -90 270 arc stroke}!
 /snap{	dlw 2 copy M -3 6 RM
@@ -395,7 +395,7 @@ exch pop cos div
 /nt0{	gsave T -3 -5 T .018 dup scale unat ufill grestore}!
 /dsh0{	gsave T -4 -5 T .018 dup scale udblesharp ufill grestore}!
 /dft0{	gsave T -4 -3.5 T .018 dup scale udbleflat ufill grestore}!
-/gsc{gsave y T .7 dup scale 0 0}!
+/gsc{gsave y T .8 dup scale 0 0}!
 /sh1{	gsave T .9 SLW
 	0 -7.8 M 0 15.4 RL stroke
 	-1.8 -2.7 M 3.6 1.1 RL 0 -2.2 RL -3.6 -1.1 RL 0 2.2 RL fill
@@ -420,21 +420,6 @@ exch pop cos div
 /sh4{sh4tb exch get cvx exec}!
 /ft4tb[/.notdef/ft1/ft0/ft513/dft0]def
 /ft4{ft4tb exch get cvx exec}!
-/gcshow{show}!
-/box{.6 SLW rectstroke}!
-/boxend{currentpoint pop/x exch def}!
-/boxmark{currentpoint pop dup x gt
-	{/x exch def}{pop}ifelse}!
-/boxdraw{x 3 index sub 2 add exch box}!
-/gxshow{0 9 3 -1 roll widthshow}!
-/anshow{show}!
-/wln{M .8 SLW 0 RL stroke}!
-/hyph{	.8 SLW 3 add M
-	dup cvi 20 idiv 3 mul 25 add
-	1 index cvi exch idiv 1 add exch 1 index div
-	dup 4 sub 3 1 roll .5 mul 2 sub 0 RM
-	{4 0 RL dup 0 RM}repeat stroke pop}!
-/lyshow{show}!
 /bar{M 1 SLW 0 exch RL stroke}!
 /dotbar{[5] 0 setdash bar [] 0 setdash}!
 /thbar{3 -1 roll 3 exch rectfill}!
@@ -499,11 +484,29 @@ exch pop cos div
 	4 exch M show grestore}!
 /SL{M RC RL RC closepath fill}!
 /dSL{	M [4] 0 setdash .8 SLW RC stroke [] 0 setdash}!
-/strw{	gsave 0 1000 M/strop/show load def 1 setgray str
+/strw{	gsave 0 -2000 M/strop/show load def 1 setgray str
 	0 setgray currentpoint pop/w exch def grestore}!
 /jshow{w 0 32 4 -1 roll widthshow}!
 /strop/show load def
 /arrayshow{{dup type/stringtype eq{strop}{glyphshow}ifelse}forall}def
+/gcshow{show}!
+/agcshow{arrayshow}!
+/box{.6 SLW rectstroke}!
+/boxend{currentpoint pop/x exch def}!
+/boxmark{currentpoint pop dup x gt
+	{/x exch def}{pop}ifelse}!
+/boxdraw{x 3 index sub 2 add exch box}!
+/gxshow{0 9 3 -1 roll widthshow}!
+/anshow{show}!
+/aanshow{arrayshow}!
+/wln{M .8 SLW 0 RL stroke}!
+/hyph{	.8 SLW 3 add M
+	dup cvi 20 idiv 3 mul 25 add
+	1 index cvi exch idiv 1 add exch 1 index div
+	dup 4 sub 3 1 roll .5 mul 2 sub 0 RM
+	{4 0 RL dup 0 RM}repeat stroke pop}!
+/lyshow{show}!
+/alyshow{arrayshow}!
 /uhd{{	100 -270 640 280
 	560 82
 	474 267 105 105 186 -80
@@ -546,12 +549,12 @@ exch pop cos div
 /pdshhd{pshhd}!
 /pdfthd{pfthd}!
 /ghd{	xymove
-	1.7 1 RM
-	-1 1.7 -4.5 -0.2 -3.4 -2 RC
-	1 -1.7 4.5 0.2 3.4 2 RC fill}!
+	1.7 1.5 RM
+	-1.32 2.31 -5.94 -0.33 -4.62 -2.64 RC
+	1.32 -2.31 5.94 0.33 4.62 2.64 RC fill}!
 /gua{x y M -1 4 RM RL stroke}!
 /gda{x y M -5 -4 RM RL stroke}!
-/ghl{	.6 SLW M -3 0 RM 6 0 RL stroke}!
+/ghl{	.6 SLW M -3.5 0 RM 7 0 RL stroke}!
 /gsl{dlw M RC stroke}!
 /custos{2 copy M -4 0 RM 2 2.5 RL 2 -2.5 RL 2 2.5 RL 2 -2.5 RL
 	-2 -2.5 RL -2 2.5 RL -2 -2.5 RL -2 2.5 RL fill
@@ -612,10 +615,10 @@ exch pop cos div
 		}repeat
 	}ifelse}!
 /gu{	.6 SLW x y M
-	1.6 0 RM 0 exch RL stroke}!
+	2.3 0 RM 0 exch RL stroke}!
 /gd{	.6 SLW x y M
-	-1.6 0 RM 0 exch RL stroke}!
-/sgu{	.6 SLW x y M 1.6 0 RM
+	-2.3 0 RM 0 exch RL stroke}!
+/sgu{	.6 SLW x y M 2.3 0 RM
 	0 exch RL currentpoint stroke
 	M dup 1 eq{
 		pop
@@ -628,7 +631,7 @@ exch pop cos div
 			fill 3.5 sub M
 		}repeat
 	  }ifelse}!
-/sgd{	.6 SLW x y M -1.6 0 RM
+/sgd{	.6 SLW x y M -2.3 0 RM
 	0 exch RL currentpoint stroke
 	M dup 1 eq{
 		pop
@@ -641,7 +644,7 @@ exch pop cos div
 			fill 3.5 add M
 		}repeat
 	  }ifelse}!
-/sgs{	.6 SLW x y M 1.6 0 RM
+/sgs{	.6 SLW x y M 2.3 0 RM
 	0 exch RL currentpoint stroke
 	M{	currentpoint
 		3 -1.5 RL 0 -2 RL -3 1.5 RL
@@ -687,6 +690,7 @@ gsave 0.75 dup scale 0 1084.9 T
 0 -12.00 T
 % --- font 20.0 F2 
 /y0{-47.0 add}!
+/yns0{-47.0 add}!
 24.0 134.8 -47.0 bar 
 24.0 332.0 -47.0 bar 
 24.0 529.1 -47.0 bar 
@@ -695,7 +699,7 @@ gsave 0.75 dup scale 0 1084.9 T
 -5.40 -7.27 -23.38 -13.85 -28.78 -9.37 0 -0.23 4.53 -2.48 24.24 4.10 28.78 9.60 157.0 -8.6 y0 SL
 -5.86 -6.12 -25.41 -7.56 -31.28 -1.87 0 -0.23 4.93 -3.69 26.35 -2.25 31.28 2.10 351.7 -4.1 y0 SL
 -5.86 -5.46 -25.41 -4.02 -31.28 2.33 0 -0.23 4.93 -4.35 26.35 -5.79 31.28 -2.10 547.3 -8.0 y0 SL
-/y{-23.2 y0}! 62.0 y M  13.0 F3 (Al)lyshow
+/y{-25.6 yns0}! 62.0 y M  13.0 F3 (Al)lyshow
 17.5 82.5 y hyph 99.9 y M (le)lyshow
 29.4 116.6 y hyph 146.1 y M (lu)lyshow
 57.5 156.7 y hyph 214.2 y M (ia.)lyshow
@@ -731,7 +735,7 @@ gsave 0.75 dup scale 0 1084.9 T
 547.3 -47.0 hd 19.8 su
 580.1 -50.0 hd 20.2 su
 616.5 -50.0 hd 21.0 su
-0 -75.48 T
+0 -74.61 T
 0 -22.00 T
 0 -26.00 T
 % --- title Tone for Versicle
@@ -739,21 +743,23 @@ gsave 0.75 dup scale 0 1084.9 T
 0 -12.00 T
 % --- font 20.0 F2 
 /y0{-47.0 add}!
-24.0 356.8 -47.0 bar 
+/yns0{-47.0 add}!
+24.0 361.9 -47.0 bar 
+24.0 657.7 -47.0 bar 24.0 654.7 -47.0 bar 
 657.7 5 0.0 -47.0 staff
 12.0 -47.0  tclef
 27.0 -23.0 sh0 32.5 -32.0 sh0 
 50.5 -44.0 hd 1 21.0 sfu
-85.6 -38.0 HDD
-220.8 -35.0 hd 1 21.0 sfu
-254.9 -44.0 hd 1 21.0 sfu
-289.0 -41.0 hd 1 21.0 sfu
-323.1 -38.0 hd 21.0 su
-372.0 -41.0 HDD
-507.2 -38.0 hd 1 21.0 sfu
-541.3 -41.0 hd 1 21.0 sfu
-575.4 -50.0 hd 1 21.0 sfu
-609.5 -47.0 hd 21.0 su
+86.2 -38.0 HDD
+223.6 -35.0 hd 1 21.0 sfu
+258.3 -44.0 hd 1 21.0 sfu
+292.9 -41.0 hd 1 21.0 sfu
+327.6 -38.0 hd 21.0 su
+377.1 -41.0 HDD
+514.5 -38.0 hd 1 21.0 sfu
+549.2 -41.0 hd 1 21.0 sfu
+583.9 -50.0 hd 1 21.0 sfu
+618.5 -47.0 hd 21.0 su
 0 -70.00 T
 grestore
 showpage
