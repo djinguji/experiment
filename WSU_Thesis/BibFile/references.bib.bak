@@ -1,0 +1,16 @@
+% Encoding: UTF-8
+
+@Article{asimov59.01,
+  author  = {Isaac Asimov},
+  title   = {The Last Question},
+  journal = {Science Fiction Quarterly},
+  year    = {1959},
+  month   = {November},
+}
+
+@Electronic{,
+  organization = {WikiBooks},
+  url          = {https://en.wikibooks.org/wiki/LaTeX/Importing_Graphics#Supported_image_formats},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
