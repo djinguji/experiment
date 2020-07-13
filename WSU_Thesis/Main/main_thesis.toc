@@ -1,8 +1,8 @@
 \hfill Page
 \contentsline {chapter}{ACKNOWLEDGMENTS}{iii}{section*.1}
 \contentsline {chapter}{ABSTRACT}{iv}{section*.2}
-\contentsline {chapter}{LIST OF TABLES}{vii}{chapter.6}
-\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter.8}
+\contentsline {chapter}{LIST OF TABLES}{viii}{chapter.6}
+\contentsline {chapter}{LIST OF FIGURES}{ix}{chapter.8}
 \contentsline {chapter}{1.\hspace {1em}Getting to know \LaTeX \ for your WSU graduate thesis}{1}{section*.10}
 \vspace { 9.5pt}
 \contentsline {section}{\numberline {1.1}Using this template}{1}{section.11}
@@ -18,6 +18,16 @@
 \contentsline {subsection}{\numberline {2.1.4}Fonts}{8}{subsection.24}
 \contentsline {subsection}{\numberline {2.1.5}Handwriting}{8}{subsection.25}
 \contentsline {section}{\numberline {2.2}Alternative Format for Dissertation and Thesis}{8}{section.26}
-\contentsline {chapter}{APPENDIX}{11}{appendix.39}
+\contentsline {chapter}{3.\hspace {1em}The third chapter}{11}{section*.38}
+\vspace { 9.5pt}
+\contentsline {chapter}{4.\hspace {1em}The fourth chapter}{12}{section*.40}
+\vspace { 9.5pt}
+\contentsline {chapter}{5.\hspace {1em}The fifth chapter}{13}{section*.42}
+\vspace { 9.5pt}
+\contentsline {chapter}{6.\hspace {1em}The sixth chapter}{14}{section*.44}
+\vspace { 9.5pt}
+\contentsline {chapter}{7.\hspace {1em}Conclusion}{15}{section*.46}
+\vspace { 9.5pt}
+\contentsline {chapter}{APPENDIX}{16}{appendix.49}
 \vskip 9.5pt
-\contentsline {section}{\numberline {A.}Appendix name}{11}{section.40}
+\contentsline {section}{\numberline {A.}Appendix name}{16}{section.50}
